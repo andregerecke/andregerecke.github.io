@@ -1,0 +1,29 @@
+# Andre Gerecke
+
+> AI transformation leader with 16+ years in digital transformation. Leads AI strategy, enablement and delivery at RWE Renewables Europe & Australia (Senior Digital Transformation Manager, since October 2023).
+
+## Profile
+- Languages: German (native), English (C1), French (C1).
+- LinkedIn: https://www.linkedin.com/in/andregerecke/
+- GitHub: https://github.com/andregerecke
+- CV (PDF): https://andregerecke.github.io/assets/Andre_Gerecke_CV_2026.pdf
+
+## Leadership highlights
+- Conceived the OPEA AI Strategy 2026; designed the 2027 AI Enablement and Scaling Concept (four-level maturity model, six-phase method, six-to-eight-week AI Value Waves) with a roadmap through 2029.
+- Enabled 700+ colleagues through business-specific Copilot workshops and rapid prototyping; built a network of 28 AI Champions; developed an AI Prompting Framework.
+- Co-organised a Microsoft 365 Copilot and Copilot Studio hackathon with Microsoft (September 2026, ~50 business participants, five groups).
+- Guided business teams from ideation to implemented AI agents, e.g. a Procurement Support Agent; contributed to NPV.OptimAIzer, an AI lighthouse for wind project-value optimisation.
+
+## Selected use cases (reported, estimated per use case)
+- Marge, market expert (Procurement): €200k–500k better negotiation results, ~30 days saved, 15% time reduction.
+- Contract Validator (Real Estate Accounting): ~33% less validation time, 43 days saved.
+- Typo (Development IT): 75% time reduction, ~29 days saved.
+
+## Built by Andre
+- Wunderfunken: daily AI-written magazine; scheduled Claude run, rule checks in TypeScript, GitHub Actions approval, GitHub Pages. https://github.com/andregerecke/wunderfunken
+- This portfolio, built with Claude Code. https://github.com/andregerecke/andregerecke.github.io
+
+## Education
+- Post Graduate Program in AI & Machine Learning: Business Applications, The University of Texas at Austin (2025–2026)
+- M.A. Marketing Management, EUFH Cologne; B.Sc. International Business, Pforzheim University (double degree with ESCE Paris)
+- PSM I, PAL I, Certified Agile Coach
