@@ -127,6 +127,24 @@ section.block { padding: 96px 0 0; }
 .dots li::before { content: ''; position: absolute; left: 0; top: .62em; width: 6px; height: 1px; background: var(--accent); }
 .dots strong { color: var(--text); font-weight: 500; }
 
+.subhead { font-size: 1.15rem; font-weight: 600; letter-spacing: -.015em; margin: 56px 0 18px; }
+.principles { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); }
+.principles li { padding: 20px 20px 0 0; }
+.principles li + li { padding-left: 20px; border-left: 1px solid var(--line); }
+.principles .mono { color: var(--accent); }
+.principles h4 { font-size: 1rem; font-weight: 600; letter-spacing: -.01em; margin: 6px 0 6px; line-height: 1.35; }
+.principles p { font-size: .9rem; color: var(--muted); }
+.story { margin-top: 48px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 30px; display: grid; grid-template-columns: 1fr 1.6fr; gap: 20px 40px; }
+.story h3 { font-size: 1.35rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.25; margin: 10px 0 10px; }
+.story-lede { color: var(--muted); }
+.steps { list-style: none; display: grid; gap: 14px; counter-reset: step; }
+.steps li { display: grid; grid-template-columns: 70px 1fr; gap: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.steps li:last-child { border-bottom: 0; padding-bottom: 0; }
+.steps b { font-family: var(--mono); font-size: .74rem; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); padding-top: 3px; }
+.steps span { font-size: .94rem; color: var(--muted); }
+.steps li:last-child span { color: var(--text); font-weight: 500; }
+.story-takeaway { grid-column: 1 / -1; border-left: 2px solid var(--accent); padding-left: 14px; font-size: .98rem; }
+
 /* cases */
 .case { display: grid; grid-template-columns: 220px 1fr 240px; gap: 32px; padding: 32px 0; border-top: 1px solid var(--line); }
 .case:last-of-type { border-bottom: 1px solid var(--line); }
@@ -185,6 +203,17 @@ footer.foot a:hover { color: var(--accent); }
   .pillars, .two { grid-template-columns: 1fr; }
   .case { grid-template-columns: 1fr; gap: 16px; }
   .built, .edu { grid-template-columns: 1fr; }
+  .principles { grid-template-columns: repeat(2, 1fr); }
+  .principles li:nth-child(3) { padding-left: 0; border-left: 0; }
+  .principles li:nth-child(n+3) { margin-top: 20px; border-top: 1px solid var(--line); }
+  .story { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .principles { grid-template-columns: 1fr; }
+  .principles li, .principles li + li { padding: 18px 0 0; border-left: 0; }
+  .principles li + li { margin-top: 18px; border-top: 1px solid var(--line); }
+  .story { padding: 22px; }
+  .steps li { grid-template-columns: 1fr; gap: 2px; }
 }
 @media (max-width: 640px) {
   .top nav li.opt { display: none; }
@@ -290,6 +319,28 @@ footer.foot a:hover { color: var(--accent); }
           </ul>
         </article>
       </div>
+
+      <h3 class="subhead" id="principles-title">My leadership principles</h3>
+      <ol class="principles" aria-labelledby="principles-title">
+        <li><span class="mono">01</span><h4>Problem first, tool second.</h4><p>Every AI initiative starts with a business owner and a process that hurts. If no one would miss the solution, we don&rsquo;t build it.</p></li>
+        <li><span class="mono">02</span><h4>Learn by building.</h4><p>Workshops end with a working prototype, not a slide deck. Small, safe experiments beat long concept phases.</p></li>
+        <li><span class="mono">03</span><h4>Grow people who don&rsquo;t need me.</h4><p>I measure my leadership by how much my team and champions can do without me. Coaching is how AI scales.</p></li>
+        <li><span class="mono">04</span><h4>Measure what changes.</h4><p>Days saved, decisions improved, adoption that lasts. Impact is tracked from the start, not reported at the end.</p></li>
+      </ol>
+
+      <article class="story" aria-labelledby="story-title">
+        <div>
+          <p class="mono">Coaching in practice</p>
+          <h3 id="story-title">From graduate to independent AI builder</h3>
+          <p class="story-lede">I coached a graduate in our team with one clear goal: full independence, not just support.</p>
+        </div>
+        <ol class="steps">
+          <li><b>Learn</b><span>We designed AI personas side by side, from the business problem to a tested, working persona.</span></li>
+          <li><b>Apply</b><span>Step by step, I handed over ownership: first co-facilitating workshops, then working directly with business teams on their use cases.</span></li>
+          <li><b>Own</b><span>Today the graduate independently develops AI personas, co-facilitates workshops and contributes to business-led AI projects.</span></li>
+        </ol>
+        <p class="story-takeaway">One person coached well multiplies a team&rsquo;s reach. This is the model I bring to building an AI transformation team.</p>
+      </article>
     </div>
   </section>
 

@@ -14,6 +14,15 @@
 - Co-organised a Microsoft 365 Copilot and Copilot Studio hackathon with Microsoft (September 2026, ~50 business participants, five groups).
 - Guided business teams from ideation to implemented AI agents, e.g. a Procurement Support Agent; contributed to NPV.OptimAIzer, an AI lighthouse for wind project-value optimisation.
 
+## Leadership principles
+1. Problem first, tool second: every AI initiative starts with a business owner and a real process problem.
+2. Learn by building: workshops end with a working prototype; small, safe experiments over long concept phases.
+3. Grow people who don't need me: coaching is how AI scales.
+4. Measure what changes: impact is tracked from the start.
+
+## Coaching example
+Coached a graduate to full independence: the graduate now independently develops AI personas, co-facilitates workshops and contributes to business-led AI projects.
+
 ## Selected use cases (reported, estimated per use case)
 - Marge, market expert (Procurement): €200k–500k better negotiation results, ~30 days saved, 15% time reduction.
 - Contract Validator (Real Estate Accounting): ~33% less validation time, 43 days saved.
